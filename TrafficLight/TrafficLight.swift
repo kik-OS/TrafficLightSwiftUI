@@ -27,14 +27,18 @@ struct TrafficLight: View {
                 orangeLight
                 greenLight
                 Spacer()
-                
-                Button(action: changeColor) {
-                    ZStack{
-                        ButtonNextColor()
-                        Text(count == 0 ? "Start" : "Next")
-                            .foregroundColor(.white).font(.title)
+            
+                    Button(action: changeColor) {
+                        ZStack{
+                            ButtonNextColor()
+                            Text(count == 0 ? "Start" : "Next")
+                                .foregroundColor(.white)
+                                .font(.title)
+                                .aspectRatio(contentMode: .fill)
+                        }
                     }
-                }
+                
+                
             }.padding()
         }
     }
