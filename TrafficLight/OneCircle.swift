@@ -16,10 +16,9 @@ struct OneCircle: View {
     var body: some View {
             Color(color)
                 .opacity(opacity)
-                .frame(width: 130, height: 130)
+                .frame(width: 132, height: 132)
                 .clipShape(Circle())
-//                .overlay(Circle().stroke(Color.white, lineWidth: 2))
-                .padding()
+                .padding(4)
     }
 }
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E41F18F325825D63009DD1B3 /* TraficLightImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F18F225825D63009DD1B3 /* TraficLightImage.swift */; };
-		E41F18F625825E12009DD1B3 /* CircleOnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F18F525825E12009DD1B3 /* CircleOnImage.swift */; };
 		E4E7EE462582123C00BAE626 /* TrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7EE452582123C00BAE626 /* TrafficLightApp.swift */; };
 		E4E7EE482582123C00BAE626 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7EE472582123C00BAE626 /* TrafficLight.swift */; };
 		E4E7EE4A2582124100BAE626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E7EE492582124100BAE626 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 
 /* Begin PBXFileReference section */
 		E41F18F225825D63009DD1B3 /* TraficLightImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraficLightImage.swift; sourceTree = "<group>"; };
-		E41F18F525825E12009DD1B3 /* CircleOnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleOnImage.swift; sourceTree = "<group>"; };
 		E4E7EE422582123C00BAE626 /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E7EE452582123C00BAE626 /* TrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightApp.swift; sourceTree = "<group>"; };
 		E4E7EE472582123C00BAE626 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				E4E7EE56258212A000BAE626 /* OneCircle.swift */,
 				E4E7EE492582124100BAE626 /* Assets.xcassets */,
 				E41F18F225825D63009DD1B3 /* TraficLightImage.swift */,
-				E41F18F525825E12009DD1B3 /* CircleOnImage.swift */,
 				E4E7EE4E2582124100BAE626 /* Info.plist */,
 				E4E7EE4B2582124100BAE626 /* Preview Content */,
 			);
@@ -154,7 +151,6 @@
 				E4E7EE462582123C00BAE626 /* TrafficLightApp.swift in Sources */,
 				E4E7EE5B2582181800BAE626 /* ButtonNextColor.swift in Sources */,
 				E41F18F325825D63009DD1B3 /* TraficLightImage.swift in Sources */,
-				E41F18F625825E12009DD1B3 /* CircleOnImage.swift in Sources */,
 				E4E7EE57258212A000BAE626 /* OneCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,24 +22,34 @@ struct TrafficLight: View {
             Color(.black)
                 .ignoresSafeArea()
             
-            VStack {
-                redLight
-                orangeLight
-                greenLight
-                Spacer()
             
-                    Button(action: changeColor) {
-                        ZStack{
-                            ButtonNextColor()
-                            Text(count == 0 ? "Start" : "Next")
-                                .foregroundColor(.white)
-                                .font(.title)
-                                .aspectRatio(contentMode: .fill)
-                        }
+            VStack{
+                ZStack{
+                    VStack{
+                    redLight
+                    orangeLight
+                    greenLight
                     }
+                    Spacer()
+                    TraficLightImage()
+                }
+                Spacer()
                 
+                Button(action: changeColor) {
+                    ZStack{
+                        ButtonNextColor()
+                        Text(count == 0 ? "Start" : "Next")
+                            .foregroundColor(.white)
+                            .font(.title)
+                            .aspectRatio(contentMode: .fill)
+                    }.padding()
+                }
                 
             }.padding()
+            
+            
+            
+            
         }
     }
     
