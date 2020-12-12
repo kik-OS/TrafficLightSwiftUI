@@ -19,18 +19,17 @@ struct TrafficLight: View {
     
     var body: some View {
         ZStack {
-            Color(.black)
-                .ignoresSafeArea()
             
+            Color(#colorLiteral(red: 0.2112910748, green: 0.192193538, blue: 0.1756046414, alpha: 0.8884352122))
+                .ignoresSafeArea()
             
             VStack{
                 ZStack{
                     VStack{
-                    redLight
-                    orangeLight
-                    greenLight
+                        redLight
+                        orangeLight
+                        greenLight
                     }
-                    Spacer()
                     TraficLightImage()
                 }
                 Spacer()
@@ -39,17 +38,12 @@ struct TrafficLight: View {
                     ZStack{
                         ButtonNextColor()
                         Text(count == 0 ? "Start" : "Next")
-                            .foregroundColor(.white)
+                            .foregroundColor(count == 0 ? Color(#colorLiteral(red: 0.5880622268, green: 0.5843623877, blue: 0.5801249146, alpha: 1)) : .white)
                             .font(.title)
                             .aspectRatio(contentMode: .fill)
                     }.padding()
                 }
-                
             }.padding()
-            
-            
-            
-            
         }
     }
     
@@ -57,13 +51,11 @@ struct TrafficLight: View {
     
     fileprivate func changeColor() {
         
-        
         if count < 3 {
             count += 1
         } else {
             count = 1
         }
-        
         
         switch count {
         case 1:
@@ -78,7 +70,6 @@ struct TrafficLight: View {
         default:
             break
         }
-        
     }
 }
 

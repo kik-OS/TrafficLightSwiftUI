@@ -12,7 +12,6 @@ struct OneCircle: View {
     let color: UIColor
     var opacity: Double
     
-    
     var body: some View {
             Color(color)
                 .opacity(opacity)
